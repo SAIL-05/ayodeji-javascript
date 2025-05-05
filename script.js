@@ -1,6 +1,8 @@
 console.log(200);
 
  
+
+
 //  let myAge = 34;
 //   myAge = 65;
  
@@ -56,8 +58,13 @@ console.log(200);
  // const myArray = ["Amaka", "James", 354, true, { name: "John" }, [2, 4, 6]];
  // console.log(myArray[2]);
  
+
+
+
  // functions
  
+
+
  //Arithemetic Operator
  
  // let a = 34;
@@ -88,7 +95,10 @@ console.log(200);
  //  +=
  //  -=
  
+
+
  //Comparism Operators
+
  // const d = "jane";
  // const e = "jane";
  // const f = "mary";
@@ -97,7 +107,9 @@ console.log(200);
  // const i = 23;
  // const j = "23";
  
+ 
  //Equals To
+
  // console.log(d == e);
  // Grater Than
  // console.log(g > h);
@@ -158,3 +170,18 @@ console.log(200);
  
 //  let voting = age < 100 && age >= 18 ? "You can vote" : "You cannot vote";
 //  console.log(voting);
+
+
+// prompt
+// prompt("enter your name")
+// const myAge = prompt("enter gour age")
+// console.log (myAge)
+
+
+let number= parseInt(prompt("enter your number"))
+if (number%2===0){
+    alert(`${number} is even`)
+}
+else{
+    alert(`${number} is odd`)
+}
