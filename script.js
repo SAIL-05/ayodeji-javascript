@@ -178,10 +178,75 @@ console.log(200);
 // console.log (myAge)
 
 
-let number= parseInt(prompt("enter your number"))
-if (number%2===0){
-    alert(`${number} is even`)
-}
-else{
-    alert(`${number} is odd`)
-}
+// if else condition
+// to show if number is even or odd
+// let number= parseInt(prompt("enter your number"))
+// if (number%2===0){
+//     alert(`${number} is even`)
+// }
+// else{
+//     alert(`${number} is odd`)
+// }
+
+
+// if else if condition
+//  const usernumber = parseInt(prompt("enter a number"));
+
+//  if (usernumber > 0){
+//     alert(`${usernumber} is a positive number`)
+//  } else if(usernumber === 0){
+//     alert(`${usernumber} is invalid`)
+//  }else if (isNaN(usernumber)){
+//     alert("this is not a number")
+//  } else{
+//     alert(`${usernumber} this is a negative number `)
+//  }
+
+
+// let num1 = parseInt(prompt("enter a number"));
+// let num2 = parseInt(prompt("enter a number"))
+ 
+//  if (num1 > num2 )
+//     alert(`${num1} is greater`)
+// else if (num1 === num2)
+//     alert("the number is equal")
+// else if (isNaN(num1 && num2)){
+//    alert("one of them is not a number")}
+// else {
+//    alert( `${num2} is greater`)
+// }
+
+// let grade = parseInt(prompt("enter a number"));
+
+//  if(grade < 40 && grade>=0){
+//     alert(`${grade} is an F YOU DUMB FUCK`)
+//  }
+//  else if (grade >= 40 && grade <=44)
+//     {alert(`${grade} is an E OMO UNA DUMB GAN OO`)}
+//  else if (grade >= 45 && grade <= 49)
+//    { alert(`${grade} is  D OMO UNA SEF DUMB OO`)}
+//  else if (grade >= 50 && grade <= 59)
+//     {alert(`${grade} is a C YOU CAN DO BETTER SHA `)}
+//  else if (grade >= 60 && grade <=69)
+//     {alert(`${grade} is a B KEEP IT UP`)}
+//  else if (grade >= 70 && grade <= 100)
+//    { alert(`${grade} is an A OPOOR OOO`)}
+//  else if( grade < 0)
+//       { alert("anh anh as how naw")}
+//     else if( grade > 100)
+//      {alert( "you wan get pass 100 ni")}
+//     else if (isNaN(grade)){
+//     alert("omo nawa for you oo")}
+//  else{ "omo nawa for you ooo"}
+
+let weight = parseFloat(prompt("enter a number"))
+let height = parseFloat(prompt("enter a number"))
+
+let bmi = weight / (height * height)
+ if (bmi <= 18.5){
+    alert("lepa shandi")
+ } 
+
+
+
+
