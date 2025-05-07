@@ -240,7 +240,7 @@ console.log(200);
 //  else{ "omo nawa for you ooo"}
 
 let weight = parseFloat(prompt("enter a number"))
-let height = parseFloat(prompt("enter a number"))
+let height = parseFloat(prompt("enter a number")/100)
 
 let bmi = weight / (height * height)
  if (bmi <= 18.5){
