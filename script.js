@@ -1,4 +1,4 @@
-console.log(200);
+// console.log(200);
 
  
 
@@ -31,10 +31,11 @@ console.log(200);
  // boolean
  // const me = true;
  // const you = false;
+
  
- // undefined
- // let test;
- // console.log(test);
+//  undefined
+//  let test;
+//  console.log(test);
  
  // null
  // let test2 = null;
@@ -132,10 +133,10 @@ console.log(200);
  // Logiacl AND &
  
  // Ayo's Admission Details
- // const fee = true;
- // const uniform = false;
- // const textbooks = false;
- // const idCard = false;
+//   const fee = true;
+//   const uniform = true;
+//   const textbooks = false;
+//  const idCard = false;
  
  // const checkOR = fee || textbooks || uniform || idCard;
  // const checkAND = fee && textbooks && uniform && idCard;
@@ -143,10 +144,21 @@ console.log(200);
  // const checkAyoAgain = (fee && idCard) || (fee && uniform);
  // console.log(checkAyoAgain);
  // console.log("from idcard", !idCard);
- 
+
+  
  // Unary Operator
  //  Increment ++
 // Decrement --
+
+
+//  let mercy = 50;
+//   (mercy) .toString ();
+
+// // // let yinka ="yinka"
+//   console.log(mercy )
+
+//   let opa= "37"
+//   console.log(opa)
  
  // let k = 3;
  // k++;
@@ -239,14 +251,12 @@ console.log(200);
 //     alert("omo nawa for you oo")}
 //  else{ "omo nawa for you ooo"}
 
-let weight = parseFloat(prompt("enter a number"))
-let height = parseFloat(prompt("enter a number")/100)
+// let weight = parseFloat(prompt("enter a number"))
+// let height = parseFloat(prompt("enter a number")/100)
 
-let bmi = weight / (height * height)
- if (bmi <= 18.5){
-    alert("lepa shandi")
- } 
-
-
-
-
+// let bmi = weight / (height * height)
+//  if (bmi <= 18.5){
+//     alert("lepa shandi")
+//  } 
+ 
+olololo
