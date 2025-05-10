@@ -201,6 +201,8 @@
 // }
 
 
+
+
 // if else if condition
 //  const usernumber = parseInt(prompt("enter a number"));
 
@@ -215,6 +217,8 @@
 //  }
 
 
+
+
 // let num1 = parseInt(prompt("enter a number"));
 // let num2 = parseInt(prompt("enter a number"))
  
@@ -227,6 +231,9 @@
 // else {
 //    alert( `${num2} is greater`)
 // }
+
+
+
 
 // let grade = parseInt(prompt("enter a number"));
 
@@ -251,16 +258,104 @@
 //     alert("omo nawa for you oo")}
 //  else{ "omo nawa for you ooo"}
 
-// let weight = parseFloat(prompt("enter a number"))
-// let height = parseFloat(prompt("enter a number")/100)
+
+
+
+
+// let weight = parseFloat(prompt("enter weight in kg"))
+// let height = parseFloat(prompt("enter height in meter"))
 
 // let bmi = weight / (height * height)
 //  if (bmi <= 18.5){
 //     alert("lepa shandi")
-//  } 
+// } 
+// else if (bmi >18.5 || bmi < 24.9){
+//     alert ("sharp sharp")
+// }
+// else if (bmi >25 || bmi < 29.9){
+//     alert ("you don dey fat oo")
+// }
+// else if (bmi>30){
+//     alert("orobo")
+// }
+// else{
+//     alert("input accurate weight")
+// }
 
 
+
+
+// guessing game
+// let number = parseInt(prompt("enter your guess"))
+
+// if (number === 52){
+//     alert(`${number} is correct `)
+// }
+// else if (number < 52){
+//     alert("you guess is lower")
+// }
+// else if (number > 52){
+//     alert("your guess is higher")
+// }
+// else {
+//     alert('try again')
+// }
  
+
+
+// let amount = parseInt(prompt("amount"))
+// if (amount >= 100){
+//     alert (`${amount}` * 0.2)
+// }
+// else if (amount >= 50){
+//     alert (`${amount}` * 0.1)
+// }
+// else {
+//     alert( "discount is 0")
+// }
+
+
+
+
+// let year = parseInt(prompt("enter year"))
+// if (year % 4 ===0 && year % 100 !== 0 || year % 400 === 0){
+//     alert(`${year} is a leap year`)
+// }else {
+//     alert(`${year} is not a leap year`)
+// }
+
+
+
+// let age = parseInt(prompt('your age'))
+
+// if (age < 12){
+//     alert('that will be 5$ pls')
+// }
+// else if (age < 18){
+//     alert('that will be 10$ pls')
+// }
+// else if (age < 60){
+//     alert('that will be 20$ pls')
+// }
+// else if (age <= 60){
+//     alert('that will be 15$ pls')
+// }
+// else{
+//     alert("input a valid number")
+// }
+
+
+// let time = parseInt(prompt('enter time in 24h format'))
+// if (time < 12){
+//     alert('good morning')
+// }
+// else if (time < 18){
+//     alert('good afternoon')
+// }
+// else {
+//     alert('good evening')
+// }
+
 // Write a program that calculates the ticket price based on age with the following conditions: age below 12 pay a ticket price of 5, age below 18 pay a ticket price of 10, age below 60 pay a ticket price of 20, age over 60 play a ticket price of 15.
 
 // Write a program that determines if a year is a leap year.
@@ -272,4 +367,5 @@
 // Write a program that calculates the Body Mass Index (BMI) and categorizes it. The formula for BMI is: weight / (height * height).
 // Underweight (below 18.5), Healthy Weight (18.5 to 24.9), Overweight (25 to 29.9), and Obese (30 or greater)
 
+// Write a simple number guessing game. Provide a secret number and a guess. Based on those numbers give players clues if their guess is higher, lower or correct.
 
