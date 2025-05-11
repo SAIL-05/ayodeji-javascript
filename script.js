@@ -260,7 +260,7 @@
 
 
 
-
+// done already
 
 // let weight = parseFloat(prompt("enter weight in kg"))
 // let height = parseFloat(prompt("enter height in meter"))
