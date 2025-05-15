@@ -434,15 +434,15 @@
 // name()
 
 
-function number (){
-    let num1 = parseInt(prompt('what is your number'))
-    let num2 = parseInt(prompt('what is your number'))
-    let num3 = parseInt(prompt('what is your number'))
-    let num4 = parseInt(prompt('what is your number'))
-   let result = Math.max(num1, num2, num3, num4)
-    console.log (result) 
-}
-number()
+// function number (){
+//     let num1 = parseInt(prompt('what is your number'))
+//     let num2 = parseInt(prompt('what is your number'))
+//     let num3 = parseInt(prompt('what is your number'))
+//     let num4 = parseInt(prompt('what is your number'))
+//    let result = Math.max(num1, num2, num3, num4)
+//     console.log (result) 
+// }
+// number()
 
 // function num (){
 //   let number = parseInt(prompt("enter your number"))
@@ -454,3 +454,7 @@ number()
 //  }
 // }
 // num()
+
+
+
+// arrow functions
