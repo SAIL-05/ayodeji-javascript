@@ -369,4 +369,88 @@
 
 // Write a simple number guessing game. Provide a secret number and a guess. Based on those numbers give players clues if their guess is higher, lower or correct.
 
-scopatumana
+
+
+
+// // Function
+
+//  function greet(name, gender){
+//     console.log("hello world!", name, gender )
+//  }
+//  greet('ife', 'male')
+//  greet('sam', 'female')
+
+
+
+//  function returnSum(num1, num2){
+//     let result = num1 + num2
+//     console.log(result)
+//  }
+//  returnSum(7,6)        
+//     // function decleration
+
+
+
+//     let sum = function(num1, num2, num3){
+//         let result = num1 + num2 + num3
+//         console.log(result)
+//     }
+//     sum(3,6,8) 
+    // function expression
+
+    
+    // function num (){
+    // let userResponse = prompt('enter your number')
+    // console.log(userResponse)
+
+    // }
+
+//     num()
+
+//     function returnDiff(num1, num2){  
+//     let result = num1 - num2
+//     console.log(result)
+//  }
+//  returnDiff()        
+
+//  function num (){
+//     let userResponse = parseInt( prompt('enter your number'))
+
+//      if (userResponse > 6){
+//         console.log(`${userResponse}is greater than 6`)
+//      }
+//      else{
+//         console.log(`${userResponse}is lesser than 6`)
+//      }
+
+//     }
+//     num()
+
+// function name(){
+//     let user = prompt('what is your name')
+//    result = user.length
+//    console.log(`your name is ${result} letters long`)
+// }
+// name()
+
+
+function number (){
+    let num1 = parseInt(prompt('what is your number'))
+    let num2 = parseInt(prompt('what is your number'))
+    let num3 = parseInt(prompt('what is your number'))
+    let num4 = parseInt(prompt('what is your number'))
+   let result = Math.max(num1, num2, num3, num4)
+    console.log (result) 
+}
+number()
+
+// function num (){
+//   let number = parseInt(prompt("enter your number"))
+//  if (number%2===0){
+//        alert(`${number} is even`)
+//  }
+//  else{
+//     alert(`${number} is odd`)
+//  }
+// }
+// num()
