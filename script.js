@@ -468,3 +468,12 @@
 // }
 
 // name()
+
+// arrow functions.
+let name = () => {
+    let user = prompt('enter your name')
+    let result = user.length
+    console.log(result)
+}
+
+name()
