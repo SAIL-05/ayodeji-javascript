@@ -469,11 +469,50 @@
 
 // name()
 
-// arrow functions.
-let name = () => {
-    let user = prompt('enter your name')
-    let result = user.length
-    console.log(result)
-}
 
-name()
+// write an arrow function that divides 2 number
+
+//  let num = (a , b) => {
+//     a = 10
+//     b = 2
+//     console.log(a/b)
+//  }
+//  num()
+
+
+//  function num (){
+//   let number = parseInt(prompt("enter your number"))
+//  if (number%2===0){
+//        alert(`${number} is even`)
+//  }
+//  else if (number %2 !=== 0){
+//     alert(`${number} is odd`)
+//  }
+//  else if (!number){
+//     alert('is not a valid number')
+// }
+// 
+// else{
+//   alert('enter number ')
+// }
+// }
+// num()
+
+ 
+// function number (){
+//     let num1 = parseInt(prompt('what is your number'))
+//     let num2 = parseInt(prompt('what is your number'))
+//     let num3 = parseInt(prompt('what is your number'))
+//     let num4 = parseInt(prompt('what is your number'))
+//     if (result = Math.max(num1 , num2 , num3 , num4 )){
+//          alert (`${result} is the highest number`) 
+//     }
+//     else if ((num1 || num2 || num3 || num4).toString){
+//          alert ("numbers only werey") 
+//     }
+     
+// }
+// number()
+
+
+
