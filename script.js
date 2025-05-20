@@ -509,10 +509,24 @@
 //     }
 //     else if ((num1 || num2 || num3 || num4).toString){
 //          alert ("numbers only werey") 
-//     }
-     
+//    }
+   
+//  }
+//  number()
+
+
+
+// a function that reverse a string 
+
+// function  rev (){
+//     let name = prompt("what is your name")
+//     alert(name.split("").reverse().join(""))
 // }
-// number()
+// rev()
 
 
+// a function that picks the longest worrd in a sentence
 
+function length (){
+    let lenght = 30
+}
