@@ -527,6 +527,180 @@
 
 // a function that picks the longest worrd in a sentence
 
-function length (){
-    let lenght = 30
+// function length (){
+//     let sentence = 'thos is the testing word of trypanosomiasis'
+//     console.log(Math.max(sentence.split(" ")[0].length, sentence.split(" ")[1].length, sentence.split(" ")[2].length,
+// sentence.split(" ")[3].length, sentence.split(" ")[4].length, sentence.split(" ")[5].length, sentence.split(" ")[6].length))
+
+// }
+// length()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Write a function to find the square root of a number  using Math.sqrt.
+
+// function based questions
+// Write a function that returns the square of a number.
+
+// Write a function that takes two numbers and returns their greatest common divisor (GCD).
+
+// Write a function to capitalize the first letter of each word in a string.
+
+// Write a function to convert Celsius to Fahrenheit.
+
+// Write a function that returns the Fibonacci sequence up to N terms.
+
+// logic based questions
+// Write a program to check whether a number is prime.
+
+// Write a program to find the second largest number in an array.
+
+// Write a function that checks if two strings are anagrams.
+
+// Example: "listen" and "silent"
+
+// Write a program to generate a random password of N characters.
+
+// Write a function to return the sum of digits of a given number.
+
+// 📊 Array-Based Questions
+// Write a function to rotate an array to the right by K steps.
+
+// Write a program to find the intersection of two arrays.
+
+// Write a function to remove all falsy values from an array.
+
+// Example: [0, false, '', null, 'hello'] → ['hello']
+
+// Write a function to chunk an array into smaller arrays of size N.
+
+// Write a function to find the most frequent element in an array.
+
+// 🧮 Math-Based Questions
+// Write a function to check if a number is a perfect square.
+
+// Write a function to generate a random number between two numbers (inclusive).
+
+// Write a function to calculate the factorial of a number (using recursion).
+
+// Write a program to find the LCM of two numbers.
+
+// Write a function to convert a decimal number to binary.
+
+// function questions
+
+// Write a function to reverse a string.
+
+// Write a function that checks if a string is a palindrome.
+
+// Write a function that finds the factorial of a number.
+
+// Write a function that returns the nth Fibonacci number.
+
+// Write a function that accepts a callback and calls it after 1 second.
+
+// Write a function to check if a year is a leap year.
+
+// Write a function that converts a string to title case (capitalize each word).
+
+// Write a function that returns the number of occurrences of a character in a string.
+
+// s.Write a function that returns true if an input is a valid email addres
+
+// Write a function to merge two sorted arrays.
+
+// 🧠 Logic-Based Programming Questions
+// Write a program to check if a number is prime.
+
+// Write a program to check if two strings are anagrams.
+
+// Write a function that returns true if a number is an Armstrong number.
+
+// Write a function to calculate the sum of digits of a number.
+
+// Write a function to count the number of vowels in a string.
+
+// Write a function that returns the longest word in a sentence.
+
+// Write a program to print the first N prime numbers.
+
+// Write a program to check if a number is a perfect square.
+
+// Write a function that generates a random string of given length.
+
+// Write a function to swap two variables without using a third variable.
+
+// 📊 Array-Based Programming Questions
+// Write a program to find the largest number in an array.
+
+// Write a program to remove duplicates from an array.
+
+// Write a function to sort an array in ascending order without using .sort().
+
+// Write a function that returns the second largest number in an array.
+
+// Write a function that flattens a nested array.
+
+// Write a function that rotates an array to the right by k steps.
+
+// Write a function to chunk an array into groups of size n.
+
+// Write a function to find the intersection of two arrays.
+
+// Write a function to find if an element exists in an array and return its index.
+
+// Write a function to remove falsy values (false, null, 0, "", undefined, NaN) from an array.
+
+// 🧮 Math-Based Programming Questions
+// Write a program to find the GCD (greatest common divisor) of two numbers.
+
+// Write a program to find the LCM (least common multiple) of two numbers.
+
+// Write a function to convert a decimal number to binary.
+
+// Write a function to convert a binary number to decimal.
+
+// Write a program to find the sum of all even numbers between 1 and N.
+
+// Write a program to generate a multiplication table for a given number.
+
+// Write a function to check if a number is a palindrome (e.g., 121).
+
+// Write a function that returns the sum of an arithmetic series.
+
+// Write a function to generate N random numbers between a given range.
+
+// Write a function to find the square root of a number without using Math.sqrt.
+
+
+
+// function number () {
+//     let num = parseInt(prompt('your number'))
+
+//     let result = Math.sqrt(num)
+// alert(result)
+// }
+// number()
+
+function word (cap) {
+    
+    console.log(cap.split(" ").map(word => word.charAt(0).toUpperCase().slice(1).toLowerCase()).join(' '))
+   
 }
+console.log(word('hello world'))
