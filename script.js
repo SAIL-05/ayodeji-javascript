@@ -696,11 +696,24 @@
 //     let result = Math.sqrt(num)
 // alert(result)
 // }
-// number()
+// // number()
 
-function word (cap) {
+// function word (cap) {
     
-    console.log(cap.split(" ").map(word => word.charAt(0).toUpperCase().slice(1).toLowerCase()).join(' '))
+//     console.log(cap.split(" ").map(word => word.charAt(0).toUpperCase().slice(1).toLowerCase()).join(' '))
    
-}
-console.log(word('hello world'))
+// }
+// console.log(word('hello world'))
+
+
+// function degree (){
+//     let Celsius = parseInt(prompt('enter number'))
+//     let result = (Celsius * 9/5)+32
+
+//     alert(result)
+// }
+// degree()
+
+
+let money= 5 
+console.log(money)
