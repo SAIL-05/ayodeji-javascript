@@ -715,5 +715,14 @@
 // degree()
 
 
-let money= 5 
-console.log(money)
+//  dom means document object manipulation used to alter the html it includes ;
+// document.getElementsByClassName
+// document.getElementById
+// document.querySelector
+// document.querySelectorAll
+
+// document.getElementsByClassName('kid')[0].textContent = "omo java sctiot hard gan ooo"
+
+
+// console.log(document.querySelectorAll('li'))
+// document.querySelectorAll('li')[2].textContent = 'rice'
