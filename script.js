@@ -726,3 +726,6 @@
 
 // console.log(document.querySelectorAll('li'))
 // document.querySelectorAll('li')[2].textContent = 'rice'
+
+// document.querySelectorAll('li')[4].textContent = 'yellow garri'
+
