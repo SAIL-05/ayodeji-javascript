@@ -715,11 +715,17 @@
 // degree()
 
 
-//  dom means document object manipulation used to alter the html it includes ;
+//  dom means document object model used to alter the html and css  it controlls html and css from js includes ;
 // document.getElementsByClassName
 // document.getElementById
 // document.querySelector
 // document.querySelectorAll
+
+
+// textContent
+// innerHTML
+// innerText
+// are used to get the content of a class or id
 
 // document.getElementsByClassName('kid')[0].textContent = "omo java sctiot hard gan ooo"
 
@@ -729,8 +735,6 @@
 
 // document.querySelectorAll('li')[4].textContent = 'yellow garri'
 
-
-console.log('eggroll')
-
-
-console.log ('updatessssss')
+// Event LISTENERS 
+//  they are used to carry out action based on an event you want to use eg onclick
+// you can use thme in your html or your js
