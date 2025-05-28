@@ -738,3 +738,20 @@
 // Event LISTENERS 
 //  they are used to carry out action based on an event you want to use eg onclick
 // you can use thme in your html or your js
+
+
+
+//  for loop  ( 1. initilaizer 2. condition 3. increment or decrement+)
+
+// for (let i = 0 ; i <= 10; i += 3) {
+//     console.log(i)
+// }
+
+for(let i = 1; i < 50 ;i++) {
+          if(i % 2 === 0) {
+              console.log(i, ' is an even number')
+          } else {
+              console.log(i, ' is an odd number')
+        
+        }
+    }
