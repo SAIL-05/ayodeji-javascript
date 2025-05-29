@@ -715,7 +715,7 @@
 // degree()
 
 
-//  dom means document object model used to alter the html and css  it controlls html and css from js includes ;
+// dom means document object model used to alter the html and css  it controlls html and css from js includes ;
 // document.getElementsByClassName
 // document.getElementById
 // document.querySelector
@@ -727,11 +727,11 @@
 // innerText
 // are used to get the content of a class or id
 
-// document.getElementsByClassName('kid')[0].textContent = "omo java sctiot hard gan ooo"
+// document.getElementById('kid').textContent = 'updated'
 
 
 // console.log(document.querySelectorAll('li'))
-// document.querySelectorAll('li')[2].textContent = 'rice'
+// document.querySelectorAll('li')[3].textContent = 'sugaerhughaeruivnh'
 
 // document.querySelectorAll('li')[4].textContent = 'yellow garri'
 
@@ -747,11 +747,21 @@
 //     console.log(i)
 // }
 
-for(let i = 1; i < 50 ;i++) {
-          if(i % 2 === 0) {
-              console.log(i, ' is an even number')
-          } else {
-              console.log(i, ' is an odd number')
+// for(let i = 1; i < 50 ;i++) {
+//           if(i % 2 === 0) {
+//               console.log(i, ' is an even number')
+//           } else {
+//               console.log(i, ' is an odd number')
         
-        }
-    }
+//         }
+//     }
+
+document.querySelectorAll('h1')[3] .innerText ='i have been changed'
+
+ 
+// function btn (){
+//   let contain =  document.querySelector('h1')
+
+//     if(contain.textContent === "open"){
+//             }
+// }
