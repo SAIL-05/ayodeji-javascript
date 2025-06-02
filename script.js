@@ -756,7 +756,7 @@
 //         }
 //     }
 
-document.querySelectorAll('h1')[3] .innerText ='i have been changed'
+// document.querySelectorAll('h1')[3] .innerText ='i have been changed'
 
  
 // function btn (){
@@ -765,3 +765,12 @@ document.querySelectorAll('h1')[3] .innerText ='i have been changed'
 //     if(contain.textContent === "open"){
 //             }
 // }
+
+
+    //    asynchronous javascript 
+
+    // setTimeout(() => {
+        
+    // }, timeout);  is used to set time a block of code will show 
+
+    callback is used 
