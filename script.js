@@ -773,5 +773,70 @@
         
     // }, timeout);  is used to set time a block of code will show 
 
-    callback is used To
+    // callback is used To
     
+
+//    variables
+//  let 
+//  var
+//  const
+
+// let age = 20 
+//  age = 10
+// console.log(age)
+
+// var name = "samuel";
+
+// var name = "deji";
+
+// console.log(name);
+
+// const age = 34
+
+// primitive data types
+//  String = "deji" ''
+//  Number =  1,2,3,44.3,
+//  Boolean = true or false
+//  undefined 
+//  null
+
+
+//  non primitive data types
+//  Object ={}
+//  array = []
+//  function  = 
+
+// strings
+// let name1 = "ayo"
+// let name = "deji"
+
+// let fullname = name1 + name
+// console.log(fullname)
+
+// concatination 
+
+// let word = "trypanosomiasis"
+// let result = word.ToUpperCase("n" , "p")
+// console.log(result)
+
+
+// numbers
+//  let name = ay"
+//  let num = 40
+//  let full = `this user name is ${name} and he is ${num} years old`
+//  console.log(full)
+
+
+// let a = 5 
+// let b = a++
+// console.log(b)
+
+// or ||
+// not !
+// and &&
+
+
+typescript is superset 
+
+
+
