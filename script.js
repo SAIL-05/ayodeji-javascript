@@ -836,7 +836,9 @@
 // and &&
 
 
-typescript is superset 
+function opa (){
+    
+}
 
 
 
