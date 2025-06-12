@@ -836,9 +836,55 @@
 // and &&
 
 
-function opa (){
-    
-}
+// control flow
+// conditional statment 
 
+// function  greets (){
+//         console.log(`good evening`)
+// }
+// greets ()
+
+// function decleration
+//  function greet(name, gender){
+//     console.log("hello world!", name,"and", gender )
+//  }
+//  greet('ife', 'male')
+//  greet('sam', 'female')
+
+// //  function expression
+
+// let gret = function (name , sex){
+//          console.log("hello", name ,sex)
+// }
+
+// gret("deji" , "male")
+
+// // arrow function
+// let word = name => console.log("hello" ,name);
+
+// word("deji")
+
+// let a = 3;
+// let b = 9;
+
+// let calc = () => {
+//     let a = 10;
+//     let b = 15;
+//     console.log(a)
+// }
+
+// calc()
+
+
+// console.log (a)
+
+// function squ (){
+//     let num = 200;
+//     console.log(num)
+// }
+// squ()
+
+// 1. write a function that calculate the lenght of a string
+// 2 . write an arrow function that divides 2 number
 
 
