@@ -888,3 +888,47 @@
 // 2 . write an arrow function that divides 2 number
 
 
+// function length (){
+//     let name = "ayodeji";
+//     let result = name.length; 
+//   if(result < 7){
+//     alert("deji is a liar")
+//   }else if(result === 7){
+//     alert("deji is truthful")
+//   }
+//   else{
+//     alert("deji is still a liar")
+//   }
+// }
+// length()
+
+// let number =(a,b) => console.log(a/b);
+
+// number(20,2)
+
+// switch statemment
+
+// const grade = 'D';
+
+// switch (grade){
+//     case 'A':
+//     console.log("you got A");break
+//       case 'B':
+//     console.log("you got B");break
+//   case 'C':
+//     console.log("you got C");break
+//   case 'D':
+//     console.log("you got D");break
+//   case 'E':
+//     console.log("you got E");break
+//     case 'F':
+//     console.log("you got F");break
+//     default:
+//         console.log("not valid")
+
+// }
+
+let users = [1,"hello", true,2];
+ let result = users.indexOf("hello")
+console.log(result)
+console.log(users)
