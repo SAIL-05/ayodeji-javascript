@@ -926,9 +926,35 @@
 //     default:
 //         console.log("not valid")
 
-// }
+// // }
 
-let users = [1,"hello", true,2];
- let result = users.indexOf("hello")
-console.log(result)
-console.log(users)
+// let users = [1,"hello", true,2];
+//  let result = users.indexOf("hello")
+// console.log(result)
+// console.log(users)
+
+
+// fetch('https://jsonplaceholder.typicode.com/todos/').then((response) => {
+//        return response.json()
+// }).then((data)=>{
+//     console.log(data)
+// });
+
+
+// console.log(1);
+// console.log(2);
+
+// const deji = async()=>{
+//     let response =  await fetch('https://jsonplaceholder.typicode.com/todos/');
+//     let data =await response.json()
+//     return data;
+// }
+// deji().then((data) => {
+//     console.log(data)
+// }).catch((err) => {
+//     console.log('somthing went wrong')
+// })
+
+// console.log(3);
+// console.log(4);
+
