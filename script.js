@@ -959,25 +959,25 @@
 // console.log(4);
 // console.log("hell
 
-const amount = document.getElementById('amount');
-const tip = document.getElementById('tip');
-const calc = document.getElementById('calculate');
-const result = document.getElementById('result')
+// const amount = document.getElementById('amount');
+// const tip = document.getElementById('tip');
+// const calc = document.getElementById('calculate');
+// const result = document.getElementById('result')
 
 
 
-calc.addEventListener('click', () => {
-    let cash =parseFloat(amount.value);
-    let tot = parseFloat(tip.value);
+// calc.addEventListener('click', () => {
+//     let cash =parseFloat(amount.value);
+//     let tot = parseFloat(tip.value);
 
- let billresult = (cash / 100)*tot;
- let totalresult = billresult + cash;
- result.textContent = `your total amount is ${totalresult} and your tip is ${billresult}`
+//  let billresult = (cash / 100)*tot;
+//  let totalresult = billresult + cash;
+//  result.textContent = `your total amount is ${totalresult} and your tip is ${billresult}`
 
-  if(isNaN(cash)){
-    result.textContent = "INPUT A VALID AMOUNT"
-  }else if (isNaN(tot)){
-    result.textContent = "INPUT A VALID TIP"
-  }
+//   if(isNaN(cash)){
+//     result.textContent = "INPUT A VALID AMOUNT"
+//   }else if (isNaN(tot)){
+//     result.textContent = "INPUT A VALID TIP"
+//   }
  
-}) 
+// }) 
